@@ -1,0 +1,132 @@
+// pricing
+
+.pricing-section {
+    background: $melyna;
+    width: 100%;
+    height: 640px;
+    text-align: center;
+    padding: 70px 0 100px 0;
+  }
+  
+  .pricing-title {
+  
+   h2 {
+    font: normal normal 600 36px/43px Montserrat;
+   }
+    p {
+      font: normal normal normal 14px/20px Montserrat;
+      margin: 20px 0 20px 0;
+    }
+  }
+  
+  
+  
+  h2 {
+   color: $balta;
+    text-transform: uppercase;
+  }
+  
+  .pricing-section p {
+    color: $balta;
+  }
+  
+  .container-pricing {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 180px;
+  
+  }
+  
+  
+    .plan {
+      background-color: white;
+      width: 343px;
+      border-radius: 5px;
+      margin: 80px 15px 0px 15px;
+      .price {
+        background-color: $pilka;
+        border-radius: 5px 5px 0 0;
+  
+        h4 {
+          color: #D8D8D8;
+          font: normal normal normal 20px/24px Montserrat;
+          padding: 15px;
+        }
+  
+        h2 {
+          font: normal normal normal 94px/24px Montserrat;
+          opacity: 0.9;
+          margin: 50px 0 50px 0;
+  
+          span {
+            font-size: 30px;
+            font-weight: 300;
+          }
+        }
+        p {
+          opacity: 0.5;
+          font: normal normal normal 14px/24px Montserrat;
+          padding-bottom: 18px;
+        }
+      }
+    }
+  
+    .plan-2 {
+      background-color: white;
+      width: 343px;
+      border-radius: 5px;
+      margin: 40px 15px 0px 15px;
+  
+      .price {
+        background-color: $pilka;
+        border-radius: 5px 5px 0 0;
+  
+        h4 {
+          color: #D8D8D8;
+          font: normal normal normal 20px/24px Montserrat;
+          padding: 15px;
+        }
+  
+        h2 {
+          font: normal normal normal 94px/24px Montserrat;
+          opacity: 0.9;
+          margin: 50px 0 50px 0;
+  
+          span {
+            font-size: 30px;
+            font-weight: 300;
+          }
+        }
+  
+        p {
+          opacity: 0.5;
+          font: normal normal normal 14px/24px Montserrat;
+          padding-bottom: 40px;
+        }
+      }
+    }
+  
+  
+    .call {
+      h6 {
+        color: #f1f1f1;
+        font: normal normal normal 14px/24px Montserrat;
+        min-height: 8px;
+        background-color: $zalia;
+       
+      }
+    }
+    .description {
+      color: $sviesi-pilka;
+      font: normal normal normal 14px/24px Montserrat;
+  
+      ul {
+        list-style: none;
+        margin: 20px;
+        text-transform: uppercase;
+  
+        li {
+          line-height: 30px;
+        }
+      }
+    }

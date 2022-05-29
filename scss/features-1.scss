@@ -1,0 +1,98 @@
+//features-1
+
+.wrapper {
+    color: $balta;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image:
+        linear-gradient(to right, rgba(226, 121, 103, 0.322), rgba(103, 146, 226, 0.541)),
+        url('https://images.unsplash.com/photo-1515229144611-617d3ce8e108?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    
+     h2 {
+      text-transform: none;
+      width: 509px;
+      height: 124px;
+      font: normal normal 600 36px/40px Montserrat;
+      margin-bottom: 60px;
+    }
+      p {
+        font: normal normal normal 14px/20px Montserrat;
+      }
+    
+    }
+    
+    .flex {
+      font: normal normal normal 14px/20px Montserrat;
+    
+    }
+    
+    .wrapper span {
+      transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    
+    .wrapper button {
+      display: flex;
+      color: $balta;
+      background: $persikine;
+      box-shadow: 0px 3px 6px #00000029;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      border: none;
+      border-radius: 0;
+      margin: 20px 0 0 50px;
+      font: normal normal 600 14px/20px Montserrat;
+    }
+    
+    .wrapper button:nth-of-type(2) {
+      background: #A37169;
+    }
+    
+    .wrapper button:nth-of-type(3) {
+      background: #A37169;
+    }
+    
+    .flex-left {
+     padding: 120px;
+     background: transparent 0% 0% no-repeat padding-box;
+     opacity: 1;
+     cursor: pointer;
+    }
+    
+    .flex {
+      display: flex;
+      margin: auto;
+    
+    }
+    
+    .flex-left,
+    .flex-right {
+      display: flex;
+      flex: 1;
+      cursor: pointer;
+    }
+    
+    .flex-right {
+      flex-direction: column;
+      width: 509px;
+      height: 138px;
+      margin: 110px 100px 0 100px;
+    }
+    
+    .right-top,
+    .right-bottom {
+      display: flex;
+      flex: 1;
+    }
+    
+    .right-bottom div:first-of-type {
+      margin-right: 20px;
+    }
+    

@@ -1,0 +1,193 @@
+// header
+
+.content {
+    color: white;
+    width: 100%;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    height: 639px;
+    background: url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+  
+   
+    &:before {
+      background: $juoda;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      opacity: 63%;
+    }
+  
+   .content-left {
+    position: relative;
+    text-align: left;
+    width: 90%;
+    margin: 65.76px 50px;
+      
+  
+    .logo-2 {
+    margin: 0px 0 50px 130px ;
+    width: 245px;
+    height: 108px;
+    }
+  
+    h1 {
+      max-width: 426px;
+      max-height: 87px;
+      font: normal normal 600 36px/43px Montserrat;
+      font-weight: 600;
+      font-size: 36px;
+      margin: 0 0 20px 130px;
+      opacity: 1;
+      }
+  
+          
+      button {
+      color: white;
+      border: 2px solid $balta;
+      width: 200px;
+      background: none;
+      font-family: Montserrat, sans-serif;
+      margin: 0 0 20px 130px;
+      font-weight: 400;
+      width: 135px;
+      height: 42px;
+      text-transform: uppercase;
+      
+  
+      &:hover {
+      color: $balta;
+      border-color: $balta;
+      cursor: pointer;
+     }
+     }
+    }
+  }
+  
+  .content-left p {
+    color: $balta;
+    text-align: left;
+    opacity: 0.8;
+    font: normal normal 600 16px/23px Montserrat;
+    max-width: 651px;
+    max-height: 65px;
+    margin: 0 0 40px 130px;
+  }
+  
+  .skirtukas{
+   margin: 20px 0 20px 120px;
+  }
+  
+  
+  // form
+  
+  form {
+    position: relative;
+    background: $balta;
+    border: 1px#f1f1f1;
+    width: 360px;
+    height: 425px;
+    margin: 75px 148px 140px 0;
+    border-radius: 6px;
+  
+    span {
+      color: $persikine;
+    }
+  
+    h2 {
+      background: #F5F5F5;
+      color: $pilka;
+      text-align: center;
+      height: 40px;
+    }
+    p {
+      color: $juoda;
+      margin: 15px 0 10px 51px;
+      font: normal normal 600 16px/24px Montserrat;
+    }
+  }
+  
+  
+  
+  .container {
+    background: $balta 0% 0% no-repeat padding-box;
+    padding: 2px;
+    border-radius: 6px;
+  
+    h2 {
+      background: #F5F5F5;
+      color: $pilka;
+      text-align: center;
+      font: normal normal 600 20px/24px Montserrat;
+      height: 40px;
+      padding-top: 20px;
+    }
+    
+  }
+  
+  .details-container h5 {
+    color: $juoda;
+    font: normal normal 600 16px/24px Montserrat;
+    margin: 25px 0 5px 51px;
+  }
+  
+  .radio-container h5 {
+    color: $juoda;
+    font: normal normal 600 16px/24px Montserrat;;
+    margin: 20px 0 20px 51px; 
+  }
+  
+  input[type=text], input[type=submit] {
+    border-color: #D8D8D8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: 3px;
+    margin: 9px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 51px;
+    width: 250px;
+  }
+  
+  input[type=text] {
+    font: normal normal normal 12px/24px Montserrat;
+    opacity: 0.5;
+  }
+  
+  
+  label {
+    color: $juoda;
+    text-transform: uppercase;
+    font: normal normal 600 9px/27px Montserrat;
+    margin-left: 0px;
+  }
+  
+  
+  input[type=radio] {
+    accent-color: $zalia;
+    margin: 5px 0px 30px 50px;
+    cursor: pointer; 
+  }
+  
+  
+  input[type=radio]:hover {
+    opacity: 1;
+  }
+  
+  
+  .getstarted {
+    background: $zalia;
+    color: $balta;
+    width: 100%;
+    height: 58px;
+    border: none;
+    font: normal normal 600 18px/24px Montserrat;
+    text-transform: uppercase;
+    border-radius: 0 0 6px 6px;
+  
+  }
